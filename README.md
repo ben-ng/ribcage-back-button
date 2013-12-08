@@ -1,23 +1,23 @@
-Ribcage Hambuger Button
+Ribcage Back Button
 =======================
 
-A little view to use with `ribcage-view` that gives you a pure CSS hamburger menu button.
+A little view to use with `ribcage-view` that gives you a pure CSS navbar back button.
 
 ## Install
 
 ```
-npm install ribcage-hamburger-button
+npm install ribcage-back-button
 ```
 
 ## Usage
 
 ```javascript
 
-  var Hamburger = require('ribcage-hamburger-button')
+  var BackButton = require('ribcage-back-button')
 
-  var button = new Hamburger({
+  var button = new BackButton({
     action: function () {
-      myView.trigger('toggle:menu')
+      myView.trigger('prev')
     }
   })
 
