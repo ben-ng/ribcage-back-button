@@ -1,0 +1,24 @@
+{
+  "name": "ribcage-back-button",
+  "version": "0.0.1",
+  "description": "A back menu button for ribcage",
+  "main": "ribcage-back-button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ben-ng/ribcage-back-button.git"
+  },
+  "keywords": [
+    "ribcage",
+    "backbone",
+    "atomify"
+  ],
+  "author": "Ben Ng <me@benng.me> (http://benng.me)",
+  "license": "MIT",
+  "dependencies": {
+    "ribcage-button": "~0.0.1"
+  },
+  "style": "style.css"
+}
