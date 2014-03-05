@@ -1,6 +1,6 @@
 {
   "name": "ribcage-back-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A back menu button for ribcage",
   "main": "ribcage-back-button.js",
   "scripts": {
