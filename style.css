@@ -10,6 +10,7 @@ button.ribcage-back-btn {
 }
 button.ribcage-back-btn span.label {
     line-height: 1em;
+    font-weight: lighter;
 }
 button.ribcage-back-btn i {
     display:inline-block;

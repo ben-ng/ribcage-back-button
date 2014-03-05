@@ -18,7 +18,7 @@
   "author": "Ben Ng <me@benng.me> (http://benng.me)",
   "license": "MIT",
   "dependencies": {
-    "ribcage-button": "~0.0.1"
+    "ribcage-button": "Techwraith/ribcage-button"
   },
   "style": "style.css"
 }
