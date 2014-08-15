@@ -1,6 +1,5 @@
 button.ribcage-back-btn {
     display: block; /* show this only on small screens */
-
     background: transparent;
     font-size: 1em;
     z-index: 10;
@@ -8,17 +7,22 @@ button.ribcage-back-btn {
     margin: 0;
     padding: 0;
 }
+button.ribcage-back-btn span.label,
+button.ribcage-back-btn i{
+    display: inline-block;
+    vertical-align: top;
+}
 button.ribcage-back-btn span.label {
-    line-height: 1em;
-    font-weight: lighter;
+    color: #fff;
+    font-weight: normal;
+    line-height: 24px;
 }
 button.ribcage-back-btn i {
-    display:inline-block;
-    width: .5em;
-    height: .7em;
-    position: relative;
+    width: 12px;
+    height: 24px;
+    background: url('img/icons/icon-btn-back.png') no-repeat scroll 0 0;
 }
-button.ribcage-back-btn i:before,
+/*button.ribcage-back-btn i:before,
 button.ribcage-back-btn i:after {
     display:block;
     content:"";
@@ -36,4 +40,18 @@ button.ribcage-back-btn i:after {
     right:0;
     border-width:.4em .4em .4em 0;
     border-color:transparent #f6f6f8 transparent transparent;
+}
+*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (   -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (           min-resolution: 192dpi),
+only screen and (            min-resolution: 2dppx){
+
+    button.ribcage-back-btn i{
+        background-image: url('img/icons/icon-btn-back@2x.png');
+        background-size: 12px 24px;
+    }
 }
